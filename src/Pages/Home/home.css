@@ -1,0 +1,44 @@
+.home-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .sidebar {
+    background-color: #343a40;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .sidebar-sticky {
+    position: sticky;
+    top: 20px;
+  }
+  
+  .filter-card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(45deg, #007bff, #00bfff);
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(45deg, #0056b3, #0099cc);
+  }
+  
+  .btn-outline-secondary {
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  
+  .btn-outline-secondary:hover {
+    background: #007bff;
+    color: white;
+  }
