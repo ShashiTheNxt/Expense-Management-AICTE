@@ -1,0 +1,102 @@
+/* Ensure the body and root take up full screen */
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('your-background-video.mp4') no-repeat center center/cover;
+}
+
+/* Signup Container */
+.signup-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glassmorphism Effect for Signup Box */
+.signup-box {
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); /* Strong blur effect */
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    border: 2px solid #00aaff; /* Static blue border */
+}
+
+/* Signup Text with Blue Border */
+.signup-box h2 {
+    color: white;
+    border: 2px solid #00aaff;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+/* Input Fields */
+.signup-box input {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+}
+
+/* Simple Blue Signup Button */
+.signup-box button {
+    font-size: 1rem;
+    padding: 12px;
+    background: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+    margin-top: 1rem;
+}
+
+/* Button Hover Effect */
+.signup-box button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+/* Already Registered Link */
+.already-registered {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.already-registered a {
+    color: #00aaff; /* Blue color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.already-registered a:hover {
+    color: #0088cc;
+}
+
+.signup-success-message {
+    color: rgb(6, 252, 6);
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
